@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-collapse{
+    flex-grow: auto !important;
+    flex-direction: row-reverse !important;
+}
+.header{
+    background-image: url(lab/img/mountains.jpg) !important;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+.header div div{
+    align-items: center;
+}
+.boxes{
+    align-items: center;
+    justify-content: center !important;
+}
+.rounded-circle{
+    top: -40px;
+    width: 50%;
+}
+
+.boxes div{
+    margin: 10px; 
+    transition: 0.7s ease; 
+}
+.boxes div:hover{
+    transform: scale(1.1);
+}
+.MeetAuther{
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+form{
+    width: 60%;
+}
+.right{
+    width: 40%;
+    justify-content: center;
+}
+.divbtn{
+    justify-content: flex-end;
+}
+button{
+    background-color:rgb(50 146 166) !important ;
+    border: none !important;
+    padding: 10px !important;
+}
